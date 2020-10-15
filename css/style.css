@@ -3,6 +3,13 @@ body {
   color: #757575;
 }
 
+:root {
+  --main-color: #757575;
+  --color-negative-text: #ffffff;
+  --auxiliary-color: #212121;
+  --focus-button-bcg-color: #2196f3;
+}
+
 /* WebStudio */
 .logo-navigation {
   font-family: 'Raleway', sans-serif;
@@ -22,11 +29,11 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--focus-button-bcg-color);
 }
 
 .header-link {
-  color: #212121;
+  color: var(--auxiliary-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -34,11 +41,11 @@ body {
 }
 
 .link .header-link:hover {
-  color: #2196f3;
+  color: var(--focus-button-bcg-color);
 }
 
 .link .header-link:focus {
-  color: #2196f3;
+  color: var(--focus-button-bcg-color);
 }
 
 .contacte-header-link {
@@ -47,15 +54,15 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-color);
 }
 
 .contacte-header .contacte-header-link:hover {
-  color: #2196f3;
+  color: var(--focus-button-bcg-color);
 }
 
 .contacte-header .contacte-header-link:focus {
-  color: #2196f3;
+  color: var(--focus-button-bcg-color);
 }
 
 .hero {
@@ -66,7 +73,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-negative-text);
   /*для наглядности цвета заголовка*/
   background-color: #757575;
 }
@@ -80,8 +87,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--color-negative-text);
+  background-color: var(--focus-button-bcg-color);
 }
 
 .heading-company-advantages {
@@ -90,7 +97,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--auxiliary-color);
 }
 
 .text-company-advantages {
@@ -99,7 +106,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-color);
 }
 
 .section-header {
@@ -109,7 +116,7 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--auxiliary-color);
 }
 
 .heading-company-team {
@@ -119,7 +126,7 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--auxiliary-color);
 }
 
 .text-company-team {
@@ -129,7 +136,7 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-color);
 }
 
 .logo-footer {
@@ -138,7 +145,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-negative-text);
   /*для видимости*/
   background-color: #757575;
 }
@@ -149,7 +156,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-negative-text);
   /*для видимости*/
   background-color: #757575;
 }
@@ -166,11 +173,11 @@ body {
 }
 
 .footer .contacte-footer-link:hover {
-  color: #2196f3;
+  color: var(--focus-button-bcg-color);
 }
 
 .footer .contacte-footer-link:focus {
-  color: #2196f3;
+  color: var(--focus-button-bcg-color);
 }
 
 .filter-button {
@@ -181,18 +188,18 @@ body {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--auxiliary-color);
   background-color: #f5f4fa;
 }
 
 .filter .filter-button:hover {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--focus-button-bcg-color);
+  color: var(--color-negative-text);
 }
 
 .filter .filter-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--focus-button-bcg-color);
+  color: var(--color-negative-text);
 }
 
 .work-examples-title {
@@ -201,7 +208,7 @@ body {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--auxiliary-color);
 }
 
 .work-examples-link {
@@ -210,5 +217,5 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-color);
 }
